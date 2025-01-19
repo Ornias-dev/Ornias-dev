@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: yellowgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
+
+label {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+form {
+    width: 60wv;
+    min-width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 0.25em;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bold {
+    font-weight: 800;
+    letter-spacing: -0.12em;
+}
